@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是热门新闻板块"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnTest"
+        android:text="Test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.style.hxc.libnavcontroller.NavController
+        android:id="@+id/btnNavCtrl"
+        app:IsLocked="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="100dp"
+        android:layout_width="100dp"/>
+
+    <com.style.hxc.libnavcontroller.NavControllerEx
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+    <com.style.test.TestView
+        android:id="@+id/testView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        app:showText="true"
+        android:text="HHHHHHHHHHH"
+        app:labelPosition="left"/>
+</LinearLayout>

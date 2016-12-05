@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="tv_color_white">#FFFFFF</color>
+    <declare-styleable name="TestView"><attr format="boolean" name="showText"/><attr format="enum" name="labelPosition">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr></declare-styleable>
+    <string name="app_name">XcMenu</string>
+</resources>

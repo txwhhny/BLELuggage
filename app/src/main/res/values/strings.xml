@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BLELuggage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ble_not_supported">不支持BLE或无法启用适配器</string>
+    <string name="etBoxMacHint">请输入箱子MAC</string>
+    <string name="lbBoxMacText">箱包：</string>
+    <string name="lbLocateMac1Text">基站1：</string>
+    <string name="etLocateMac1Hint">请输入基站1MAC</string>
+    <string name="lbLocateMac2Text">基站2：</string>
+    <string name="etLocateMac2Hint">请输入基站2MAC</string>
+    <string name="lbLocateMac3Text">基站3：</string>
+    <string name="etLocateMac3Hint">请输入基站3MAC</string>
+    <string name="lbSendIntervalText">发送间隔(ms)：</string>
+    <string name="etSendIntervalHint">请输入发送间隔(ms)</string>
+    <string name="okText">保存</string>
+    <string name="btnQueryLocal">查询</string>
+    <string name="cancelText">取消</string>
+    <string name="scanText">检测</string>
+    <string name="connText">已连接</string>
+    <string name="disconnText">已断开</string>
+    <string name="btnReturn">返回</string>
+    <string name="btnStop_Text">停止</string>
+    <string name="msgInfoTitle">提示信息</string>
+    <string name="exitMsg">是否确定退出程序？</string>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <CheckBox
+        android:id="@+id/chkFollow"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#80202f58"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="自动跟随"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#80202f58"
+        android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/lbBoxMacText" />
+        <TextView
+            android:id="@+id/tvBoxMac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/btnBoxConn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连接"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#80202f58"
+        android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/lbLocateMac1Text" />
+        <TextView
+            android:id="@+id/tvLocateMac1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/btnLocateMac1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连接"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#80202f58"
+        android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/lbLocateMac2Text" />
+        <TextView
+            android:id="@+id/tvLocateMac2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/btnLocateMac2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连接"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#80202f58"
+        android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/lbLocateMac3Text" />
+        <TextView
+            android:id="@+id/tvLocateMac3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/btnLocateMac3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连接"/>
+    </LinearLayout>
+
+    <ListView android:id="@+id/lvDevListFollow"
+        android:background="#80202f58"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

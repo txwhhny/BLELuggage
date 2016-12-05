@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\BLELuggage\xcmenu\src\main\res"/><source path="E:\BLELuggage\xcmenu\build\generated\res\rs\release"/><source path="E:\BLELuggage\xcmenu\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="E:\BLELuggage\xcmenu\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\BLELuggage\xcmenu\src\main\res"><file name="menu_item1" path="E:\BLELuggage\xcmenu\src\main\res\layout\menu_item1.xml" qualifiers="" type="layout"/><file name="menu_item2" path="E:\BLELuggage\xcmenu\src\main\res\layout\menu_item2.xml" qualifiers="" type="layout"/><file path="E:\BLELuggage\xcmenu\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="TestView">
+        <attr format="boolean" name="showText"/>
+        <attr format="enum" name="labelPosition">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable></file><file path="E:\BLELuggage\xcmenu\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimaryDark">#303F9F</color><color name="colorPrimary">#3F51B5</color><color name="colorAccent">#FF4081</color><color name="tv_color_white">#FFFFFF</color></file><file path="E:\BLELuggage\xcmenu\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">XcMenu</string></file></source><source path="E:\BLELuggage\xcmenu\build\generated\res\rs\release"/><source path="E:\BLELuggage\xcmenu\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="E:\BLELuggage\xcmenu\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="TestView"><attr format="boolean" name="showText"/><attr format="enum" name="labelPosition">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr></declare-styleable></configuration></mergedItems></merger>
