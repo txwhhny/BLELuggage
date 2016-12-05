@@ -27,7 +27,7 @@ import java.util.ArrayList;
 
 /**
  * @author  style
- * @version Version1.0
+ * @version Version1.0.0
  */
 public class MainActivity extends AppCompatActivity {
 
